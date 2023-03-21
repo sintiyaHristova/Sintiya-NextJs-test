@@ -5,7 +5,6 @@ import styled from "styled-components";
 export const StyledSectionBigHeading = styled(
   forwardRef((props, ref) => <h1 {...props} ref={ref} />)
 )`
-  margin-left: 20rem;
   font-family: Poppins;
   font-weight: 600;
   font-size: 3rem;
