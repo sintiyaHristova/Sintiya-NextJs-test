@@ -34,7 +34,7 @@ export const StyledDescription = styled((props) => (
 export const StyledTextContainer = styled(({ ...props }) => <div {...props} />)`
   color: black;
   width: 30%;
-  margin-left: 11.125rem;
+  margin-left: 20rem;
   font-family: sans-serif;
 `;
 
