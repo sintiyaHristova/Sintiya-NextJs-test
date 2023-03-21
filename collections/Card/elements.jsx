@@ -13,11 +13,11 @@ import {
 export const StyledCardIconContainer = styled((props) => (
   <SectionCardIconContainer {...props} />
 ))`
-margin: 13px
+margin: 11px
 `;
 
 export const StyledCardIcon = styled((props) => <SectionCardIcon {...props} />)`
-  height: 8rem;
+  height: 6rem;
 `;
 
 export const StyledCardDescription = styled((props) => (
@@ -30,8 +30,8 @@ export const StyledCardDescription = styled((props) => (
   }
 `;
 const typeOfCard = {
-  sm: css` max-width: 32rem;}`,
-  md: css` max-width: 30rem; }`,
+  sm: css` max-width: 26rem;}`,
+  md: css` max-width: 28rem; }`,
   lg: css` width: 30rem; }`,
 };
 
@@ -69,8 +69,11 @@ export const StyledCardTextContainer = styled((props) => (
 export const StyledCardTitle = styled((props) => (
   <SectionCardTitle {...props} />
 ))`
-margin: 1;
-& > span {
-  font-weight: bold;
-}
+margin: 0 0 1rem 0;
+&:hover,
+&:focus,
+&:active {
+    color: #0070f3;
+    text-decoration: underline;
+  }
 `;
