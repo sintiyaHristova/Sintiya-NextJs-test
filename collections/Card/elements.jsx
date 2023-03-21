@@ -26,7 +26,7 @@ export const StyledCardDescription = styled((props) => (
   margin: 0;
   & > span {
     font-weight: bold;
-    padding-right: 3rem;
+    padding-right: 0rem;
   }
 `;
 const typeOfCard = {
