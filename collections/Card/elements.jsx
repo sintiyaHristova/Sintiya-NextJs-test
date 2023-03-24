@@ -42,8 +42,8 @@ export const StyledCardContainer = styled((props) => (
   margin: 2rem 0;
   padding: 1.5rem;
   cursor: pointer;
-  &:hover,
-  &:active,
+  &:focus,
+  &:active
   {
     border: 2px solid transparent;
     border-color: #1e7efb;
