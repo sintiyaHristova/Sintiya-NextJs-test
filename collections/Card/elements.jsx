@@ -30,9 +30,9 @@ export const StyledCardDescription = styled((props) => (
   }
 `;
 const typeOfCard = {
-  sm: css` max-width: 26rem;}`,
-  md: css` max-width: 28rem; }`,
-  lg: css` width: 30rem; }`,
+  sm: css` max-width: 25rem;}`,
+  md: css` max-width: 27rem; }`,
+  lg: css` width: 29rem; }`,
 };
 
 export const StyledCardContainer = styled((props) => (
