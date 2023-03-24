@@ -18,7 +18,6 @@ margin: 11px
 
 export const StyledCardIcon = styled((props) => <SectionCardIcon {...props} />)`
   height: 6rem;
-  margin-left: 0rem;
 `;
 
 export const StyledCardDescription = styled((props) => (
