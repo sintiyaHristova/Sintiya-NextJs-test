@@ -57,7 +57,7 @@ export const StyledSectionParagraph = styled((props) => <p {...props} />)`
 export const StyledCardIcon = styled(
   forwardRef((props, ref) => <img {...props} ref={ref} />)
 )`
-  margin-left: 0.5rem;
+  margin-left: 0rem;
 `;
 
 export const StyledCardTitle = styled(
