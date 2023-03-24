@@ -43,15 +43,11 @@ export const StyledCardContainer = styled((props) => (
   padding: 1.5rem;
   cursor: pointer;
   &:hover,
-  &:focus,
-   {
+  &:active,
+  {
     border: 2px solid transparent;
     border-color: #1e7efb;
     background: rgba(244, 244, 244, 255);
-  },
-  &:active{
-  border: 2px solid transparent;
-    border-color: #1e7efb;
   }
   @media (max-width: 1024px) {
     gap: 0;
