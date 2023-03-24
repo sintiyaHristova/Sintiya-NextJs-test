@@ -65,7 +65,7 @@ export const StyledCardTitle = styled(
 )`
   font-family: Poppins;
   font-size: 1.25rem;
-  line-height: 1.875rem;
+  line-height: 0rem;
   font-weight: 300 bold;
 `;
 
