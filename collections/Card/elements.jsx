@@ -46,10 +46,12 @@ export const StyledCardContainer = styled((props) => (
   &:focus,
   &:active
   {
-    border: 2px solid transparent;
+   
     border-color: #1e7efb;
     background: rgba(244, 244, 244, 255);
-  }
+  },
+    border: 2px solid transparent;
+
   @media (max-width: 1024px) {
     gap: 0;
     justify-content: space-evenly;
